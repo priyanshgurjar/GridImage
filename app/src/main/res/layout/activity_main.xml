@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="35dp">
+
+        <!-- Title for the Gallery -->
+        <TextView
+            android:id="@+id/galleryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Top Albums"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingTop="15dp" />
+
+        <!-- Grid Layout for Images -->
+        <GridLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:stretchMode="columnWidth"
+            android:useDefaultMargins="true">
+
+            <!-- Image Views (10 Images) -->
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img1" />
+
+<!--
+            Artist: Tyler, The Creator
+            Album: CHROMAKOPIA
+            Released: October 28, 2024
+            Tracks: 14
+-->
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img2" />
+
+            <!--
+            Artist: Kendrick Lamar
+            Album: GNX
+            Released: November 22, 2024
+            Tracks: 12
+            Link: *Add spotify link*
+-->
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img3" />
+
+            <!--
+            Artist: Sabrina Carpenter
+            Album: Short n’ Sweet
+            Released: August 23, 2024
+            Tracks: 12
+            Link: *Add spotify link*
+
+            -->
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img4" />
+
+            <!--
+            Artist: Charli xcx
+            Album: BRAT
+            Released: June 7, 2024
+            Tracks: 15
+            Link: *Add spotify link*
+            -->
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img5" />
+
+            <!--
+            Artist: The Weeknd
+            Album: Hurry Up Tomorrow
+            Released: January 31, 2025
+            Tracks: 22
+            Link: *Add spotify link*
+-->
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img6" />
+
+<!--       The Rise and Fall of a Midwest Princess (Tidal Exclusive)
+by Chappell Roan     -->
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img7" />
+
+<!--
+Alligator Bites Never Heal
+by Doechii-->
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img8" />
+<!--            HIT ME HARD AND SOFT by
+Billie Eilish-->
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img9" />
+<!--Radical Optimism (TIDAL Reissue) by
+Dua Lipa-->
+
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img10" />
+<!--  This Is How Tomorrow Moves by
+beabadoobee-->
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
